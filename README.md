@@ -7,6 +7,8 @@ The Fitness Tracker App is a mobile and web-based application for tracking exerc
 * Frontend: Flutter + Dart
 * Containerization: Docker
 
+<img width="397" alt="image" src="https://github.com/user-attachments/assets/a2e7bac0-3646-457e-b666-5dfa71f95f12" />
+
 ## Prerequisites
 Before you begin, ensure you have the following installed on your system:
 
