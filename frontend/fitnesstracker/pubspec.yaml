@@ -1,0 +1,37 @@
+name: fitness_tracker_app
+description: "Fitness Tracker App"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  path_drawing: ^1.0.1
+  intl: ^0.18.1
+  firebase_auth: ^5.3.3
+  firebase_core: ^3.8.0
+  flutter_dotenv: ^5.2.1
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_svg : ^2.0.5
+  xml: ^6.5.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/appimage.png
+    - assets/images/frontmodel.svg
+    - assets/images/backmodel.svg
+    - assets/images/profile_pic.jpg
+    - .env
